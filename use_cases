@@ -1,0 +1,143 @@
+Part 2 - Use Cases and Scenarios
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Use Case: Manage Savings
+
+Description: Allow users to manage and allocate their savings into different categories.
+
+Goal: Improve financial management and savings habits of the user.
+
+Main Actor: User
+
+Secondary Actor: Bank System
+
+Trigger : User decides to allocate their savings into different categories.
+
+Relationships: Includes "Update Savings" and "View Savings" use cases.
+
+Pre-condition : User is registered and has linked their bank account(s) to the app.
+
+Input: User's desired savings allocation across different categories.
+
+Post-condition: User's savings are distributed as per their preference.
+
+Output: Updated savings allocation displayed to the user.
+
+Normal Path : User logs into the app, navigates to the savings management feature, sets their preferred savings allocation, and saves changes.
+
+Alternatives Paths: If the user doesn't have enough savings to allocate as desired, the app might show a warning or error. Alternatively, if the user wants to reallocate their savings, they would need to adjust the amounts in the different envelopes.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Use Case: Track Spending
+
+Description: Allow users to track and categorize their spending.
+
+Goal: Provide users with a clear picture of their spending habits to improve financial management.
+
+Main Actor: User
+
+Secondary Actor: Bank System
+
+Trigger : User makes a purchase using a linked bank account.
+
+Relationships: Includes "Update Spending Limit" and "View Expense Report" use cases.
+
+Pre-condition:  User is registered and has linked their bank account(s) to the app.
+
+Input: User's spending data from the linked bank account(s).
+
+Post-condition: User's spending is categorized and tracked.
+
+Output: Updated spending report displayed to the user.
+
+Normal Path:  User makes a purchase, the app tracks and categorizes the expense, and updates the spend report.
+
+Alternatives Paths: If the user exceeds their spending limit, the app could show a warning or suggestion to adjust their spending habits.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Use Case: Get Financial Advice
+
+Description: Provide tailored financial advice to the user.
+
+Goal: Help users improve their financial management and achieve their financial goals.
+
+Main Actor: User
+
+Secondary Actor: AI Financial Advisor
+
+Trigger : User requests for financial advice or a set period has passed (e.g., monthly financial review).
+
+Relationships: Includes "Update Financial Goals" and "View Financial Advice" use cases.
+
+Pre-condition : User is registered and has linked their bank account(s) to the app.
+
+Input: User's financial data and goals.
+
+Post-condition: User receives tailored financial advice.
+
+Output: Financial advice displayed to the user.
+
+Normal Path : User requests financial advice, the system analyzes the user's financial data and goals, and provides tailored advice.
+
+Alternatives Paths: If the user changes their financial goals, the system should adapt and provide new advice based on the updated goals.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Use Case: Manage Subscriptions
+
+Description: Manage and keep track of user's subscriptions.
+
+Goal: Ensure users are aware of their active subscriptions and upcoming renewals.
+
+Main Actor: User
+
+Secondary Actor: Various Subscription Services
+
+Trigger :  User adds a new subscription or a subscription is due for renewal.
+
+Relationships: Includes "Add Subscription", "Remove Subscription", and "View Subscriptions" use cases.
+
+Pre-condition : User is registered and has linked their subscriptions to the app.
+
+Input: User's subscription data.
+
+Post-condition:  User's subscriptions are managed and renewal reminders are set.
+
+Output: Updated subscription list and reminders displayed to the user.
+
+Normal Path : User adds a new subscription, the system updates the subscription list and sets a reminder for the renewal date.
+
+Alternatives Paths: If a subscription is due for renewal, the system sends a reminder to the user. If a subscription is cancelled, it should be removed from the list.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Use Case: Track Investments
+
+Description: Track user's investments and provide updates.
+
+Goal: Help users keep track of their investment performance.
+
+Main Actor: User
+
+Secondary Actor: Investment Platforms, Cryptocurrency Platforms
+
+Trigger : User adds a new investment or an investment sees significant changes.
+
+Relationships: Includes "Add Investment", "Remove Investment", and "View Investments" use cases.
+
+Pre-condition : User is registered and has linked their investment accounts to the app.
+
+Input: User's investment data.
+
+Post-condition: User's investments are tracked and updated.
+
+Output: Updated investment data displayed to the user.
+
+Normal Path : User adds a new investment, the system updates the investment list and tracks the performance of the investment.
+
+Alternatives Paths: If an investment sees significant changes, the system sends a notification to the user. If an investment is sold, it should be removed from the list.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
