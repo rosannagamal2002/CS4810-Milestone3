@@ -33,7 +33,7 @@
     
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Use Case 4: Manage Savings (Create Saving Envelope, Set up Automatic Savings)**
+## Use Case 4: Manage Savings (Create Saving Envelope, Set up Automatic Savings)
 
 **Description**: This use case describes how a user can manage their savings, including creating a saving envelope and setting up automatic savings.
 
