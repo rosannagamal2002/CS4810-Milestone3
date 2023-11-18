@@ -179,7 +179,7 @@ Goal: Help users keep track of their investment performance.
 
 Main Actor: User
 
-Secondary Actor: Investment Platforms, Cryptocurrency Platforms
+Secondary Actor: Investment Platforms
 
 Trigger : User adds a new investment or an investment sees significant changes.
 
