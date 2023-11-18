@@ -1,6 +1,63 @@
 Part 2 - Use Cases and Scenarios
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Use Case: Update Profile
+
+Description: Allow users to update their profile information.
+
+Goal: Enable users to keep their profile information up to date.
+
+Main Actor: User
+
+Secondary Actor: Email Provider Verification
+
+Trigger: User wants to update their profile information.
+
+Relationships: Includes "Update Info" use case.
+
+Pre-condition: User is registered and logged into the app.
+
+Input: Updated profile information from the user.
+
+Post-condition: User's profile information is updated.
+
+Output: Confirmation message of a successful profile update.
+
+Normal Path:
+
+    1.User opens the app and navigates to the Profile section.
+    2.User selects the "Update Profile" option.
+    3.The app displays the current profile information to the user.
+    4.User modifies the desired fields, such as name, email, address, and contact number.
+    5.User submits the updated profile information.
+    6.The app validates the entered data for accuracy and completeness.
+    7.The app updates the user's profile information with the new data.
+    8.The app displays a confirmation message to the user indicating a successful profile update.
+    9.User can now view their updated profile information.
+
+Alternative Paths:
+
+1a. If the user enters invalid or incomplete information in any of the fields:
+
+    1.The app displays an error message specifying the issue(s) with the entered data.
+    2.User corrects the errors and re-submits the updated profile information.
+    3.Steps 6-9 from the Normal Path are followed.
+
+1b. If the user decides to cancel the update:
+
+    1.User selects the "Cancel" or "Back" option.
+    2.The app returns the user to the Profile section without any changes made.
+
+1c. If there are technical issues with the app's system:
+
+    1.The app displays an error message informing the user about the issue.
+    2.User tries the update again later or contacts customer support for assistance.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 Use Case: Manage Savings
 
