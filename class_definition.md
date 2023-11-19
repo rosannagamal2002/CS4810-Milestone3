@@ -42,6 +42,13 @@
 
 ---------------------------------------------------------------------------------------------------------------------------
 
+## Interface: IDueDateNotifier
+**Methods:** public void notifyDueDate()
+
+**Association:** Implemented by Subscription and Bills classes.
+
+---------------------------------------------------------------------------------------------------------------------------
+
 ## Class: Subscription (extends Feature, implements IDueDateNotifier)
 
 **Attributes:**
