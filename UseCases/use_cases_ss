@@ -50,5 +50,58 @@ Alternative Paths:
     1.The app displays an error message informing the user about the issue.
     2.User tries the update again later or contacts customer support for assistance.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Use Case: Track Spending
 
+Description: Allow users to track and categorize their spending.
+
+Goal: Provide users with a clear picture of their spending habits to improve financial management.
+
+Main Actor: User
+
+Secondary Actor: Bank System
+
+Trigger : User makes a purchase using a linked bank account.
+
+Relationships: Includes "Update Spending Limit" and "View Expense Report" use cases.
+
+Pre-condition:  User is registered and has linked their bank account(s) to the app.
+
+Input: User's spending data from the linked bank account(s).
+
+Post-condition: User's spending is categorized and tracked.
+
+Output: Updated spending report displayed to the user.
+
+Normal Path:  User makes a purchase, the app tracks and categorizes the expense, and updates the spend report.
+
+Alternatives Paths: If the user exceeds their spending limit, the app could show a warning or suggestion to adjust their spending habits.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Use Case: Track Investments
+
+Description: Track user's investments and provide updates.
+
+Goal: Help users keep track of their investment performance.
+
+Main Actor: User
+
+Secondary Actor: Investment Platforms
+
+Trigger : User adds a new investment or an investment sees significant changes.
+
+Relationships: Includes "Add Investment", "Remove Investment", and "View Investments" use cases.
+
+Pre-condition : User is registered and has linked their investment accounts to the app.
+
+Input: User's investment data.
+
+Post-condition: User's investments are tracked and updated.
+
+Output: Updated investment data displayed to the user.
+
+Normal Path : User adds a new investment, the system updates the investment list and tracks the performance of the investment.
+
+Alternatives Paths: If an investment sees significant changes, the system sends a notification to the user. If an investment is sold, it should be removed from the list.
