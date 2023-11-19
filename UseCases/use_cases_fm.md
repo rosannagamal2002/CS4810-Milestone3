@@ -93,7 +93,7 @@
 *Alternatives Paths:*
 + If the user attempts to add a subscription or bill that already exists, the system prompts the user to update the existing record instead of creating a new one.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Use Case 7: Manage Financial Challenges 
+## Use Case 8: Manage Financial Challenges 
 
 *Description:* This use case describes how a user can participate in a savings challenge or split an expense with another user.
 
